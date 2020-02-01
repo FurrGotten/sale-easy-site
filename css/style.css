@@ -1,0 +1,56 @@
+:root {
+    font-size: calc(0.5vw + 7px);
+    font-family: "Roboto Light", sans-serif;
+}
+@font-face {
+    font-family: TT-Supermolot-Neue;
+    src: url(../fonts/TTSupermolotNeue-CondXLight.ttf);
+}
+@font-face {
+    font-family: Brusher;
+    src: url(../fonts/Brusher.ttf);
+}
+.tt-supermolot-neue{
+    font-family: TT-Supermolot-Neue, serif;
+}
+.brusher{
+    font-family: Brusher, serif;
+}
+body{
+    background-color: #f8f7f7;
+}
+.nav-item a{
+    color: #6a6a6a;
+}
+a:hover {
+    text-decoration-color: #c2adcc;
+    text-decoration-line: underline;
+}
+.nav-fluid-container{
+    background-color: white;
+}
+img[src="icons/search.svg"]{
+    height: 1em;
+}
+img[src="icons/hot-sale-gray.svg"]{
+    height: 1.4em;
+}
+.text-pink{
+    color: #c2adcc;
+}
+.login-button{
+    height: 2em;
+    padding-top: 0.25em;
+    margin-left: 1em;
+    margin-top: -0.1em;
+    background-color: #c2adcc;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+    width: 4vw;
+}
+img[alt="big-scroll-img"]{
+    margin-left: -4em;
+    width: 100%;
+}
