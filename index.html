@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/cb03cfc236.js" crossorigin="anonymous"></script>
@@ -11,8 +12,8 @@
 <body>
 <div class="container-fluid nav-fluid-container shadow pt-5 pb-4 pl-md-5 pr-md-5">
     <div class="row">
-        <div class="col-md-2"><h1 class="tt-supermolot-neue">E A S Y <img src="icons/hot-sale-pink.svg" alt="sale"
-                                                                          style="margin-top: -1em"></h1>
+        <div class="col-md-2"><h1 class="easy-label">E A S Y <img src="icons/hot-sale-pink.svg" alt="sale"
+        class="hot-sale-pink-icon"></h1>
         </div>
         <div class="col-md-5">
             <ul class="nav d-flex justify-content-between">
@@ -26,8 +27,8 @@
         </div>
         <div class="col-md-3 offset-2 row justify-content-between">
             <p class="">
-                <img src="icons/search.svg" alt="search" class="nav-icon-s">
-                <img src="icons/hot-sale-gray.svg" alt="sale" class="nav-icons ml-1">
+                <img src="icons/search.svg" alt="search" class="nav-icon-s search-icon">
+                <img src="icons/hot-sale-gray.svg" alt="sale" class="nav-icons ml-1 gray-nav-sale-icon">
             </p>
             <p class="text-pink">Зареєструватися</p>
             <button type="button" class="btn btn-primary col-4 login-button rounded-0 border-0 mr-3">УВІЙТИ</button>
@@ -41,32 +42,166 @@
         <div class="col-md-4"><p class="border border-dark">21% знижка для студентів на одяг <b>BERSHKA</b></p></div>
     </div>
 </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active container-fluid pt-5 pb-5 pl-md-5 pr-md-5">
-                <div class="row p-5">
-                    <div class="col-6 bg-white shadow d-flex flex-column justify-content-center p-5">
-                        <p class="ml-5 font-weight-bolder">КАТЕГОРІЯ ФЕШН</p>
-                        <h1 class="brusher text-pink ml-5" style="font-size: 6em">Ексклюзивні знижки до 30%</h1>
-                        <p class="ml-5 pl-5">Знижки для студентів від більше ніж 500 магазинів!!!</br>
-                            Лорем іпсум долор сіт амет консігула ін люміна</p>
-                        <p class="align-self-end font-weight-bolder mr-5">ЗАРЕЄСТРУЙСЯ І ОТРИМУЙ ЗНИЖКИ</p>
-                    </div>
-                    <div class="col-6 mt-5 mb-5">
-                    <img src="img/main-scroll-image-2048x2048.png" alt="big-scroll-img" class="">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active container-fluid pt-5 pb-5 pl-md-5 pr-md-5">
+            <div class="row p-5">
+                <div class="col-6 bg-white shadow d-flex flex-column justify-content-center p-5">
+                    <p class="ml-5 font-weight-bolder">КАТЕГОРІЯ ФЕШН</p>
+                    <h1 class="text-pink ml-5 carousel-headers">Ексклюзивні знижки до 30%</h1>
+                    <p class="ml-5 pl-5">Знижки для студентів від більше ніж 500 магазинів!!!</br>
+                        Лорем іпсум долор сіт амет консігула ін люміна</p>
+                    <p class="align-self-end font-weight-bolder mr-5">ЗАРЕЄСТРУЙСЯ І ОТРИМУЙ ЗНИЖКИ</p>
+                </div>
+                <div class="col-6 mt-5 mb-5">
+                    <img src="img/main-scroll-image-2048x2048.png" alt="big-scroll-img" class="big-scroll-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only text-black">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container">
+    <div class="row">
+        <h1 class="text-center col-12 sale-header">Вибирай знижки!</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mb-4 d-none d-none d-xl-block">
+            <div class="shadow container-fluid background-zara bg-white sale-element d-flex flex-row">
+                <div class="align-items-start">
+                    <img src="icons/hot-sale-gray.svg" alt="sale" class="nav-icons m-2 secondary-background">
+                </div>
+                <div class="row align-self-end">
+                    <div class="sale-element-icon zara-icon bg-white shadow ml-5"></div>
+                    <div class="col-8 mt-3">
+                        <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                        <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор
+                            консігула</p>
+                        <p class="ml-5 font-weight-bold"><u>Скористатись знижкою</u></p>
                     </div>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only text-black">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-stradivarius">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon stradivarius-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-stradivarius">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon stradivarius-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-bershka">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon bershka-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-zara">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon zara-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-bershka">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon bershka-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-zara">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon zara-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-stradivarius">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon stradivarius-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-stradivarius">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon stradivarius-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-bershka">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon bershka-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-6 mb-4">
+            <div class="shadow bg-white sale-element d-flex flex-column align-items-center text-center background-zara">
+                <img src="icons/hot-sale-gray.svg" alt="sale"
+                     class="nav-icons m-2 mb-4 align-self-end secondary-background">
+                <div class="sale-element-icon zara-icon bg-white shadow mt-5 mb-md-0 mb-sm-5"></div>
+                <h4 class="sale-item-headers">30% знижка на весінню колекцію</h4>
+                <p class="">Лорем іпсум долор сіт амет консігула ін люміна долор сіт амет консігуладолор консігула</p>
+                <p class="font-weight-bold"><u>Скористатись знижкою</u></p>
+            </div>
+        </div>
     </div>
+    <div class="row m-5">
+        <p class="col-12 text-center">ВСІ ЗНИЖКИ</p>
+    </div>
+</div>
+<div class="container-fluid pink-background-image p-5">
+    <div class="row">
+        <div class="col-">
+            <h1 class="pink-block-header"></h1>
+        </div>
+        <div class="col-"></div>
+    </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
