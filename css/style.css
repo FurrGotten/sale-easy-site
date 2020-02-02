@@ -1,38 +1,46 @@
 :root {
     font-size: calc(0.5vw + 7px);
     font-family: "Roboto Light", sans-serif;
+    --main-pink-color: #c2adcc;
 }
 @font-face {
     font-family: TT-Supermolot-Neue;
     src: url(../fonts/TTSupermolotNeue-CondXLight.ttf);
 }
-@font-face {
-    font-family: Brusher;
-    src: url(../fonts/Brusher.ttf);
-}
-.tt-supermolot-neue{
+.easy-label{
     font-family: TT-Supermolot-Neue, serif;
 }
-.brusher{
-    font-family: Brusher, serif;
+.sale-item-headers{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 body{
     background-color: #f8f7f7;
 }
+.hot-sale-pink-icon{
+    margin-top: -1em;
+}
+.carousel-headers {
+    font-size: 6em;
+    font-family: Brusher, serif;
+}
 .nav-item a{
     color: #6a6a6a;
 }
+.sale-header{
+    font-family: Brusher, serif;
+}
 a:hover {
-    text-decoration-color: #c2adcc;
+    text-decoration-color: var(--main-pink-color);
     text-decoration-line: underline;
 }
 .nav-fluid-container{
     background-color: white;
 }
-img[src="icons/search.svg"]{
+.search-icon{
     height: 1em;
 }
-img[src="icons/hot-sale-gray.svg"]{
+.gray-nav-sale-icon{
     height: 1.4em;
 }
 .text-pink{
@@ -43,14 +51,70 @@ img[src="icons/hot-sale-gray.svg"]{
     padding-top: 0.25em;
     margin-left: 1em;
     margin-top: -0.1em;
-    background-color: #c2adcc;
+    background-color: var(--main-pink-color);
 }
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
     width: 4vw;
 }
-img[alt="big-scroll-img"]{
+.big-scroll-img{
     margin-left: -4em;
     width: 100%;
+}
+.sale-element{
+    height: 27em;
+}
+.sale-element-icon{
+    height: 5em;
+    width: 5em;
+}
+.secondary-background{
+    background-color: rgba(106, 106, 106, 0.9);
+}
+.background-zara{
+    background-image: url("../img/zara-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-stradivarius{
+    background-image: url("../img/stradivarius-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background-bershka{
+    background-image: url("../img/bershka-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.zara-icon{
+    background-image: url("../img/zara.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stradivarius-icon{
+    background-image: url("../img/stradivarius.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bershka-icon{
+    background-image: url("../img/bershka.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pink-background-image{
+    background-image: url("../img/image-1024x1024.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pink-block-header{
+    font-family: Brusher, serif;
+}
+@media (max-width: 500px) {
+    .sale-element{
+        background-image: none;
+    }
 }
