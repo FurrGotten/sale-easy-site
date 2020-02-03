@@ -2,10 +2,17 @@
     font-size: calc(0.5vw + 7px);
     font-family: "Roboto Light", sans-serif;
     --main-pink-color: #c2adcc;
+    --gray-color: #6a6a6a;
+    --deactivated-main-pink-color: #9988a3;
+    --secondary-pink-color: #fed0d0;
 }
 @font-face {
     font-family: TT-Supermolot-Neue;
     src: url(../fonts/TTSupermolotNeue-CondXLight.ttf);
+}
+@font-face {
+    font-family: Brusher;
+    src: url(../fonts/Brusher.ttf);
 }
 .easy-label{
     font-family: TT-Supermolot-Neue, serif;
@@ -17,6 +24,14 @@
 body{
     background-color: #f8f7f7;
 }
+.violet-underline{
+box-shadow: 0 0.5em var(--main-pink-color), inset 0 -0.5em var(--main-pink-color);
+    background-color: transparent;
+}
+.pink-underline{
+    box-shadow: 0 0.5em var(--secondary-pink-color), inset 0 -0.5em var(--secondary-pink-color);
+    background-color: transparent;
+}
 .hot-sale-pink-icon{
     margin-top: -1em;
 }
@@ -25,7 +40,7 @@ body{
     font-family: Brusher, serif;
 }
 .nav-item a{
-    color: #6a6a6a;
+    color: var(--gray-color);
 }
 .sale-header{
     font-family: Brusher, serif;
@@ -44,7 +59,7 @@ a:hover {
     height: 1.4em;
 }
 .text-pink{
-    color: #c2adcc;
+    color: var(--main-pink-color);
 }
 .login-button{
     height: 2em;
@@ -107,12 +122,39 @@ a:hover {
 }
 .pink-background-image{
     background-image: url("../img/image-1024x1024.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 30em;
 }
 .pink-block-header{
     font-family: Brusher, serif;
+    font-size: 4em;
 }
+:hover.login-button{
+    background-color: var(--deactivated-main-pink-color);
+}
+.phone-image{
+    width: 100%;
+}
+.easy-label-phone{
+    font-family: TT-Supermolot-Neue, sans-serif;
+}
+.phone-font-several{
+    font-size: 0.3em;
+    margin: 0.3em;
+}
+.phone-font-sale{
+    font-size: 0.5em;
+    margin: 0.3em;
+}
+.phone-screen{
+    transform-origin: top right;
+    transform: rotate(17deg);
+}
+.contacts-icons a{
+    color: var(--gray-color);
+}
+
 @media (max-width: 500px) {
     .sale-element{
         background-image: none;
