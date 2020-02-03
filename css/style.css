@@ -7,6 +7,10 @@
     font-family: TT-Supermolot-Neue;
     src: url(../fonts/TTSupermolotNeue-CondXLight.ttf);
 }
+@font-face {
+    font-family: Brusher;
+    src: url(../fonts/Brusher.ttf);
+}
 .easy-label{
     font-family: TT-Supermolot-Neue, serif;
 }
@@ -16,6 +20,14 @@
 }
 body{
     background-color: #f8f7f7;
+}
+.violet-underline{
+box-shadow: 0 0.5em var(--main-pink-color), inset 0 -0.5em var(--main-pink-color);
+    background-color: transparent;
+}
+.pink-underline{
+    box-shadow: 0 0.5em #fed0d0, inset 0 -0.5em #fed0d0;
+    background-color: transparent;
 }
 .hot-sale-pink-icon{
     margin-top: -1em;
@@ -107,12 +119,39 @@ a:hover {
 }
 .pink-background-image{
     background-image: url("../img/image-1024x1024.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 30em;
 }
 .pink-block-header{
     font-family: Brusher, serif;
+    font-size: 4em;
 }
+:hover.login-button{
+    background-color: #9988a3;
+}
+.phone-image{
+    width: 100%;
+}
+.easy-label-phone{
+    font-family: TT-Supermolot-Neue, sans-serif;
+}
+.phone-font-several{
+    font-size: 0.3em;
+    margin: 0.3em;
+}
+.phone-font-sale{
+    font-size: 0.5em;
+    margin: 0.3em;
+}
+.phone-screen{
+    transform-origin: top right;
+    transform: rotate(17deg);
+}
+.contacts-icons a{
+    color: #6a6a6a;
+}
+
 @media (max-width: 500px) {
     .sale-element{
         background-image: none;
