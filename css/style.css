@@ -2,6 +2,9 @@
     font-size: calc(0.5vw + 7px);
     font-family: "Roboto Light", sans-serif;
     --main-pink-color: #c2adcc;
+    --gray-color: #6a6a6a;
+    --deactivated-main-pink-color: #9988a3;
+    --secondary-pink-color: #fed0d0;
 }
 @font-face {
     font-family: TT-Supermolot-Neue;
@@ -26,7 +29,7 @@ box-shadow: 0 0.5em var(--main-pink-color), inset 0 -0.5em var(--main-pink-color
     background-color: transparent;
 }
 .pink-underline{
-    box-shadow: 0 0.5em #fed0d0, inset 0 -0.5em #fed0d0;
+    box-shadow: 0 0.5em var(--secondary-pink-color), inset 0 -0.5em var(--secondary-pink-color);
     background-color: transparent;
 }
 .hot-sale-pink-icon{
@@ -37,7 +40,7 @@ box-shadow: 0 0.5em var(--main-pink-color), inset 0 -0.5em var(--main-pink-color
     font-family: Brusher, serif;
 }
 .nav-item a{
-    color: #6a6a6a;
+    color: var(--gray-color);
 }
 .sale-header{
     font-family: Brusher, serif;
@@ -56,7 +59,7 @@ a:hover {
     height: 1.4em;
 }
 .text-pink{
-    color: #c2adcc;
+    color: var(--main-pink-color);
 }
 .login-button{
     height: 2em;
@@ -128,7 +131,7 @@ a:hover {
     font-size: 4em;
 }
 :hover.login-button{
-    background-color: #9988a3;
+    background-color: var(--deactivated-main-pink-color);
 }
 .phone-image{
     width: 100%;
@@ -149,7 +152,7 @@ a:hover {
     transform: rotate(17deg);
 }
 .contacts-icons a{
-    color: #6a6a6a;
+    color: var(--gray-color);
 }
 
 @media (max-width: 500px) {
