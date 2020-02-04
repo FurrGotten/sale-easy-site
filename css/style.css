@@ -135,6 +135,7 @@ a:hover {
 }
 .phone-image{
     width: 100%;
+    margin-top: -15px;
 }
 .easy-label-phone{
     font-family: TT-Supermolot-Neue, sans-serif;
@@ -143,6 +144,9 @@ a:hover {
     font-size: 0.3em;
     margin: 0.3em;
 }
+.phone-screen button{
+    font-size: 0.2em;
+}
 .phone-font-sale{
     font-size: 0.5em;
     margin: 0.3em;
@@ -150,13 +154,22 @@ a:hover {
 .phone-screen{
     transform-origin: top right;
     transform: rotate(17deg);
+    margin-left: 2.5vw;
 }
 .contacts-icons a{
     color: var(--gray-color);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .sale-element{
         background-image: none;
+    }
+}
+@media (max-width: 1199px) {
+    .pink-background-image{
+        background-image: url("../img/pink-texture-back-1024x1024.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
     }
 }
